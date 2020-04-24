@@ -4,4 +4,5 @@ module Section {
 
     opens sample;
     opens sample.exercise1;
+    opens sample.exercise2;
 }
