@@ -1,4 +1,4 @@
-package sample.exrcise3;
+package sample.exercise3;
 
 import javafx.application.Application;
 import javafx.geometry.Pos;
