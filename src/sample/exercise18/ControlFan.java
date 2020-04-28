@@ -10,6 +10,7 @@ public class ControlFan extends BorderPane {
     Fan fan = new Fan(50);
 
     public ControlFan() {
+        setStyle("-fx-border-color: black");
 
         Button pause = new Button("Pause");
         Button resume = new Button("Resume");
@@ -29,5 +30,13 @@ public class ControlFan extends BorderPane {
         slSpeed.setValue(fan.getSpeed());
         slSpeed.valueProperty().addListener(e -> fan.setSpeed(slSpeed.getValue()));
         setBottom(slSpeed);
+    }
+
+    public void stop() {
+        fan.stop();
+    }
+
+    public void play() {
+        fan.play();
     }
 }
