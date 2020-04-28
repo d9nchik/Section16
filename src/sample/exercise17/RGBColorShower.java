@@ -66,7 +66,7 @@ public class RGBColorShower extends Application {
 
         Scene scene = new Scene(pane, 300, 250);
         primaryStage.setScene(scene);
-        primaryStage.setTitle("Exercise 16");
+        primaryStage.setTitle("Exercise 17");
         primaryStage.show();
 
         final InvalidationListener listener = e -> text.setFill(new Color(r.getValue() / 255,
