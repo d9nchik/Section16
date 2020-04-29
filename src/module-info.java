@@ -1,6 +1,7 @@
 module Section {
     requires javafx.fxml;
     requires javafx.controls;
+    requires javafx.media;
 
     opens sample;
     opens sample.exercise1;
@@ -24,4 +25,6 @@ module Section {
     opens sample.exercise18;
     opens sample.exercise19;
     opens sample.exercise20;
+
+    opens sample.exercise21;
 }
