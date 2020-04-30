@@ -31,4 +31,5 @@ module Section {
     opens sample.exercise23;
     opens sample.exercise24;
     opens sample.exercise25;
+    opens sample.exercise26;
 }
