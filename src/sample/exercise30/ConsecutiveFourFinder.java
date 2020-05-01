@@ -112,7 +112,7 @@ public class ConsecutiveFourFinder extends Application {
         return false;
     }
 
-    private boolean areTextFieldsEqual(TextField... textFields) {
+    private static boolean areTextFieldsEqual(TextField... textFields) {
         for (TextField field : textFields)
             if (!textFields[0].getText().equals(field.getText()))
                 return false;
